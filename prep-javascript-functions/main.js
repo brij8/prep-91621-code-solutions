@@ -9,4 +9,10 @@ function convertHoursToMinutes(hours) {
   return hours * 60;
 }
 var minutes = convertHoursToMinutes(2);
-console.log(minutes);
+console.log('the convertHoursToMinutes function returned: ', minutes);
+
+function getGreeting(name) {
+  return 'Hello ' + name + '!';
+}
+var greet = getGreeting('World');
+console.log('the getGreeting function says: ', greet);
