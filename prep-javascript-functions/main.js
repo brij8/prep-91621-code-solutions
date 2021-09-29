@@ -28,3 +28,9 @@ function multiplyAndDivideBy5(num1, num2) {
 }
 var multAndDiv = multiplyAndDivideBy5(35, 10);
 console.log('the multiplyAndDivideBy5 function returned: ', multAndDiv);
+
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+var subtract2 = subtractTwoNumbers(22, 7);
+console.log('the subtractTwoNumbers function returned: ', subtract2);
